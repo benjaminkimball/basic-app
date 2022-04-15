@@ -1,0 +1,17 @@
+{
+  "root": true,
+  "extends": [
+    "eslint:recommended",
+    "next/core-web-vitals",
+    "plugin:security/recommended",
+    "plugin:@typescript-eslint/recommended",
+    "prettier"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["security", "@typescript-eslint"],
+  "rules": {
+    "no-console": "warn",
+    "no-use-before-define": "off",
+    "@typescript-eslint/no-use-before-define": "error"
+  }
+}
