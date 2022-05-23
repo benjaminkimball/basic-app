@@ -3,5 +3,5 @@
 @tailwind utilities;
 
 #__next {
-  @apply h-full;
+  @apply min-h-screen;
 }

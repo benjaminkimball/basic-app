@@ -14,7 +14,7 @@ const CustomApp: FC<AppProps> = ({ Component, pageProps }) => {
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-        <title>Basic App</title>
+        <title>basic-app</title>
       </Head>
 
       <ApolloProvider client={apolloClient}>
