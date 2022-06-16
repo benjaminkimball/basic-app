@@ -1,13 +1,9 @@
-import { ApolloProvider } from "@apollo/client";
 import { AppProps } from "next/app";
 import Head from "next/head";
 import { FC } from "react";
-import { useApollo } from "../lib/graphql/client";
 import "../styles/globals.css";
 
 const CustomApp: FC<AppProps> = ({ Component, pageProps }) => {
-  const apolloClient = useApollo(pageProps.initialApolloState);
-
   return (
     <>
       <Head>
@@ -17,9 +13,7 @@ const CustomApp: FC<AppProps> = ({ Component, pageProps }) => {
         <title>basic-app</title>
       </Head>
 
-      <ApolloProvider client={apolloClient}>
-        <Component {...pageProps} />
-      </ApolloProvider>
+      <Component {...pageProps} />
     </>
   );
 };
