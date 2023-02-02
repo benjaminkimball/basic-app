@@ -17,10 +17,8 @@
     "type": "git",
     "url": "git+https://github.com/benjaminkimball/basic-app.git"
   },
-  "contributors": [
-    "Benjamin Kimball <hello@benjaminkimball.com>"
-  ],
-  "license": "UNLICENSED",
+  "author": "Benjamin Kimball <hello@benjaminkimball.com>",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/benjaminkimball/basic-app/issues"
   },
