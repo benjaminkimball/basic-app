@@ -17,7 +17,7 @@
     }
   ],
   "rules": {
-    "@next/no-html-link-for-pages": "error",
+    "@next/next/no-html-link-for-pages": "off",
     "no-console": "warn",
     "no-use-before-define": "off",
     "@typescript-eslint/no-use-before-define": "error"
