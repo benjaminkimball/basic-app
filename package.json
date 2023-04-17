@@ -6,11 +6,11 @@
     "dev": "next",
     "format": "prettier --write './{app,lib,styles}/**/*'",
     "lint": "next lint && stylelint './styles/**/*.css'",
-    "prepush": "pnpm types:check && pnpm format && pnpm lint && pnpm test",
+    "prepush": "npm run types:check && npm run format && npm run lint && npm test",
     "start": "next start",
     "test": "jest --passWithNoTests",
-    "test:coverage": "pnpm test -- --coverage",
-    "test:watch": "pnpm test -- --watch",
+    "test:coverage": "npm test -- --coverage",
+    "test:watch": "npm test -- --watch",
     "types:check": "tsc"
   },
   "repository": {
@@ -23,9 +23,9 @@
     "url": "https://github.com/benjaminkimball/basic-app/issues"
   },
   "homepage": "https://github.com/benjaminkimball/basic-app#readme",
-  "engines": {
-    "node": "18.x",
-    "pnpm": "8.x"
+  "volta": {
+    "node": "18.16.0",
+    "npm": "9.6.4"
   },
   "dependencies": {
     "@headlessui/react": "^1.7.14",
@@ -52,7 +52,7 @@
     "prettier": "^2.8.7",
     "prettier-plugin-tailwindcss": "^0.2.7",
     "stylelint": "^15.4.0",
-    "stylelint-config-recommended": "^11.0.0",
+    "stylelint-config-recommended": "^12.0.0",
     "tailwindcss": "^3.3.1",
     "ts-node": "^10.9.1",
     "typescript": "^5.0.4"
