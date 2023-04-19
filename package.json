@@ -4,8 +4,8 @@
   "scripts": {
     "build": "next build",
     "dev": "next",
-    "format": "prettier --write './{app,lib,styles}/**/*'",
-    "lint": "next lint && stylelint './styles/**/*.css'",
+    "format": "prettier --write './{app,lib}/**/*'",
+    "lint": "next lint && stylelint './app/**/*.css'",
     "prepush": "npm run types:check && npm run format && npm run lint && npm test",
     "start": "next start",
     "test": "jest --passWithNoTests",
