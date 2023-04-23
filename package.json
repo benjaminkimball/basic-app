@@ -6,11 +6,11 @@
     "dev": "next",
     "format": "prettier --write './{app,lib}/**/*'",
     "lint": "next lint && stylelint './app/**/*.css'",
-    "prepush": "pnpm types:check && pnpm format && pnpm lint && pnpm test",
+    "prepush": "npm run types:check && npm run format && npm run lint && npm test",
     "start": "next start",
     "test": "jest --passWithNoTests",
-    "test:coverage": "pnpm test -- --coverage",
-    "test:watch": "pnpm test -- --watch",
+    "test:coverage": "npm test -- --coverage",
+    "test:watch": "npm test -- --watch",
     "types:check": "tsc"
   },
   "repository": {
@@ -24,9 +24,9 @@
   },
   "homepage": "https://github.com/benjaminkimball/basic-app#readme",
   "volta": {
-    "node": "18.16.0"
+    "node": "18.16.0",
+    "npm": "9.6.5"
   },
-  "packageManager": "pnpm@8.3.1",
   "dependencies": {
     "@headlessui/react": "^1.7.14",
     "@heroicons/react": "^2.0.17",
