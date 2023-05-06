@@ -23,9 +23,13 @@
     "url": "https://github.com/benjaminkimball/basic-app/issues"
   },
   "homepage": "https://github.com/benjaminkimball/basic-app#readme",
+  "engines": {
+    "node": "18.x",
+    "npm": "9.x"
+  },
   "volta": {
     "node": "18.16.0",
-    "npm": "9.6.5"
+    "npm": "9.6.6"
   },
   "dependencies": {
     "@headlessui/react": "^1.7.14",
