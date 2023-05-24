@@ -4,8 +4,8 @@
   "scripts": {
     "build": "next build",
     "dev": "next",
-    "format": "prettier --write './{app,lib}/**/*'",
-    "lint": "next lint && stylelint './app/**/*.css'",
+    "format": "prettier --write '{app,lib}/**/*'",
+    "lint": "next lint && stylelint 'app/**/*.css'",
     "prepush": "npm run types:check && npm run format && npm run lint && npm test",
     "start": "next start",
     "test": "jest --passWithNoTests",
@@ -29,7 +29,7 @@
   },
   "volta": {
     "node": "18.16.0",
-    "npm": "9.6.6"
+    "npm": "9.6.7"
   },
   "dependencies": {
     "@headlessui/react": "^1.7.14",
@@ -54,7 +54,7 @@
     "jest-environment-jsdom": "^29.5.0",
     "postcss": "^8.4.23",
     "prettier": "^2.8.7",
-    "prettier-plugin-tailwindcss": "^0.2.7",
+    "prettier-plugin-tailwindcss": "^0.3.0",
     "stylelint": "^15.5.0",
     "stylelint-config-recommended": "^12.0.0",
     "tailwindcss": "^3.3.1",
