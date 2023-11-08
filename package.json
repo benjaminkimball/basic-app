@@ -1,10 +1,12 @@
 {
   "private": true,
   "name": "basic-app",
+  "version": "0.0.0",
+  "description": "A cloneable template for bootstrapping Next.js projects.",
   "scripts": {
     "build": "next build",
     "dev": "next",
-    "format": "prettier --write '{app,lib}/**/*'",
+    "format": "prettier --write 'app/**/*'",
     "lint": "next lint && stylelint 'app/**/*.css'",
     "prepush": "npm run types:check && npm run format && npm run lint && npm test",
     "start": "next start",
@@ -33,7 +35,7 @@
   "dependencies": {
     "@headlessui/react": "^1.7.14",
     "@heroicons/react": "^2.0.17",
-    "next": "^13.3.1",
+    "next": "^14.0.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
@@ -45,7 +47,7 @@
     "@typescript-eslint/parser": "^6.0.0",
     "autoprefixer": "^10.4.14",
     "eslint": "^8.39.0",
-    "eslint-config-next": "^13.3.1",
+    "eslint-config-next": "^14.0.1",
     "eslint-config-prettier": "^9.0.0",
     "eslint-plugin-jest": "^27.2.1",
     "eslint-plugin-security": "^1.7.1",
