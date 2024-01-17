@@ -3,7 +3,7 @@
   "extends": [
     "eslint:recommended",
     "next/core-web-vitals",
-    "plugin:security/recommended",
+    "plugin:security/recommended-legacy",
     "plugin:@typescript-eslint/recommended",
     "prettier"
   ],
